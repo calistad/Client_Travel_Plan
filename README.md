@@ -1,12 +1,32 @@
 # Customer Travel Plan
 
-# Airlines-Analysis
-
 ## Overview
-This analysis is to predict whether a given flight will be delayed, given the information of the scheduled departure.
+Create a travel plan for the customers in 4 aspects.
 
-## Purpose
-Which machine learning algorithm would achieve the best performance for prediction?
+1. Present 600+ **cities**, nearby **airports**, **hotels**, and **restaurants** with clients’ preferable temperatures.
+    
+2. Predict whether the clients’ selected flights from 18 Airlines will be delayed.
+
+3. Suggest the most suitable **Airbnb** to clients based on 13 data points.
+
+4. Propose housing **price** estimation on clients' desirable Airbnb.
+
+### Approach
+
+* Retrieve weather of 1000+ cities in the US using Weather API.
+
+![Screen Shot 2022-09-18 at 6 19 13 PM](https://user-images.githubusercontent.com/88747464/190930360-732ab56c-ad16-4d50-87ee-137f3da49ccd.png)
+
+* Present nearby places using Google API.
+
+![Screen Shot 2022-09-18 at 6 20 48 PM](https://user-images.githubusercontent.com/88747464/190930364-4e20ea48-f671-4488-8d2a-fbe5df8ce485.png)
+
+* Implement 5 Data Classification models on a 540,000 rows dataset to predict delayed flights.
+
+* Build a Content-based Recommender using NLP to filter Airbnb.
+
+* Conduct 9 Regression models to estimate Airbnb pricing.
+
 
 ## Findings
 This is a large dataset with 9 columns and 539,383 rows.
