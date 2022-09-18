@@ -11,6 +11,8 @@ Create a travel plan for the customers in 4 aspects.
 
 4. Propose housing **price** estimation on clients' desirable Airbnb.
 
+## Find the right city
+
 ### Approach
 
 * Retrieve weather of 1000+ cities in the US using Weather API.
@@ -21,7 +23,15 @@ Create a travel plan for the customers in 4 aspects.
 
 ![Screen Shot 2022-09-18 at 6 20 48 PM](https://user-images.githubusercontent.com/88747464/190930364-4e20ea48-f671-4488-8d2a-fbe5df8ce485.png)
 
+### Findings - Interactive Map
+
+![Screen Shot 2022-09-17 at 11 37 23 PM](https://user-images.githubusercontent.com/88747464/190930473-36f85af5-8183-42b4-8f70-ed28dd56dd78.png)
+
+
+
 * Implement 5 Data Classification models on a 540,000 rows dataset to predict delayed flights.
+
+
 
 * Build a Content-based Recommender using NLP to filter Airbnb.
 
