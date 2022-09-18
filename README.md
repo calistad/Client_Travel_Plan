@@ -23,14 +23,13 @@ Present nearby places using Google API.
 
 ![Screen Shot 2022-09-18 at 6 20 48 PM](https://user-images.githubusercontent.com/88747464/190930364-4e20ea48-f671-4488-8d2a-fbe5df8ce485.png)
 
-User to choose preferable weather.
+Clients choose preferable weather.
 
 ![Screen Shot 2022-09-18 at 6 30 04 PM](https://user-images.githubusercontent.com/88747464/190930611-68f370a8-2429-45c6-8ea6-d73652de1262.png)
 
 ### Findings - Interactive Map
 
 ![Screen Shot 2022-09-17 at 11 37 23 PM](https://user-images.githubusercontent.com/88747464/190930473-36f85af5-8183-42b4-8f70-ed28dd56dd78.png)
-
 
 
 ## 2. Choose the Right Flights
@@ -86,13 +85,45 @@ Therefore, both the `voting classifier` and `ada boost classifier` are recommend
 | ![Screen Shot 2022-07-14 at 9 56 03 PM](https://user-images.githubusercontent.com/88747464/179131374-dbe4c373-3db8-4294-b46e-efe3e2deef47.png) | ![Screen Shot 2022-07-14 at 10 01 54 PM](https://user-images.githubusercontent.com/88747464/179132035-46448ae0-f408-40e2-9354-9ad528f20521.png) |
 
 
+## 3. Reserve the Suitable Airbnb
+
+**Assume the client choose Los Angeles, we will look at Airbnb located in Los Angeles.**
+
+### Approach
+
+* 13,000+ hotels for clients to choose.
+
+![Screen Shot 2022-09-18 at 6 58 49 PM](https://user-images.githubusercontent.com/88747464/190931914-746a400c-51b8-4467-bc14-85047ec284bb.png)
+
+* Clients' requirements.
+
+![Screen Shot 2022-09-18 at 6 59 12 PM](https://user-images.githubusercontent.com/88747464/190931927-55b6ed4e-a684-4490-bfa4-c9bedfdf6b5e.png)
+
+* Available hotels after clientss' requirements.
+
+![Screen Shot 2022-09-18 at 6 59 46 PM](https://user-images.githubusercontent.com/88747464/190931930-b8894de2-495e-4de4-967a-418d2060496a.png)
 
 
+## 4. Estimate the Potential Housing Price
 
+**Assume the client choose Los Angeles, we will predict Airbnb pricing located in Los Angeles.**
 
+### Approach
 
+![Screen Shot 2022-09-18 at 7 15 35 PM](https://user-images.githubusercontent.com/88747464/190932365-c6bb1120-2f4a-4779-ac15-d0c3785c910d.png)
 
+![Screen Shot 2022-09-18 at 7 15 48 PM](https://user-images.githubusercontent.com/88747464/190932371-a5a19b56-8eae-47a4-8223-605afa144fdf.png)
 
+![Screen Shot 2022-09-18 at 7 16 07 PM](https://user-images.githubusercontent.com/88747464/190932374-5236a976-f596-4a1f-9306-b6f066004fbc.png)
+
+* Feature Selection
+
+![Screen Shot 2022-09-18 at 7 19 11 PM](https://user-images.githubusercontent.com/88747464/190932459-f384a04f-d3e6-40bf-ae41-6c942aaa79b6.png)
+![Screen Shot 2022-09-18 at 7 19 31 PM](https://user-images.githubusercontent.com/88747464/190932464-3261ab83-3f38-4dd0-aa0d-8bd35aa1cd82.png)
+
+The most significant features are `Cleaning_fee` and `bedrooms`.
+
+![Screen Shot 2022-09-18 at 7 16 41 PM](https://user-images.githubusercontent.com/88747464/190932379-eadb10c6-65bc-4c4a-a3b7-fd1b36580bdc.png)
 
 
 
