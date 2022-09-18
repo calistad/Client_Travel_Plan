@@ -32,7 +32,7 @@ Clients choose preferable weather.
 ![Screen Shot 2022-09-17 at 11 37 23 PM](https://user-images.githubusercontent.com/88747464/190930473-36f85af5-8183-42b4-8f70-ed28dd56dd78.png)
 
 
-## 2. Choose the Right Flights
+## 2. Choose the Right Flight
 
 ### Approach
 
@@ -63,7 +63,7 @@ Prepared dataset after categorical encoding.
 
 ## Findings
 
-Retrieved *Feature importance*.
+Retrieve **Feature importance**.
 
 ![Screen Shot 2022-07-14 at 9 44 08 PM](https://user-images.githubusercontent.com/88747464/179130183-ff3de576-8132-4b60-9fb3-2b61449a0cb9.png)
 
@@ -91,7 +91,7 @@ Therefore, both the `voting classifier` and `ada boost classifier` are recommend
 
 ### Approach
 
-* 13,000+ hotels for clients to choose.
+13,000+ hotels for clients to choose.
 
 ![Screen Shot 2022-09-18 at 6 58 49 PM](https://user-images.githubusercontent.com/88747464/190931914-746a400c-51b8-4467-bc14-85047ec284bb.png)
 
@@ -99,7 +99,7 @@ Therefore, both the `voting classifier` and `ada boost classifier` are recommend
 
 ![Screen Shot 2022-09-18 at 6 59 12 PM](https://user-images.githubusercontent.com/88747464/190931927-55b6ed4e-a684-4490-bfa4-c9bedfdf6b5e.png)
 
-* Available hotels after clientss' requirements.
+Available hotels after clientss' requirements.
 
 ![Screen Shot 2022-09-18 at 6 59 46 PM](https://user-images.githubusercontent.com/88747464/190931930-b8894de2-495e-4de4-967a-418d2060496a.png)
 
@@ -116,7 +116,7 @@ Therefore, both the `voting classifier` and `ada boost classifier` are recommend
 
 ![Screen Shot 2022-09-18 at 7 16 07 PM](https://user-images.githubusercontent.com/88747464/190932374-5236a976-f596-4a1f-9306-b6f066004fbc.png)
 
-* Feature Selection
+Retrieved **Feature importance**.
 
 ![Screen Shot 2022-09-18 at 7 19 11 PM](https://user-images.githubusercontent.com/88747464/190932459-f384a04f-d3e6-40bf-ae41-6c942aaa79b6.png)
 ![Screen Shot 2022-09-18 at 7 19 31 PM](https://user-images.githubusercontent.com/88747464/190932464-3261ab83-3f38-4dd0-aa0d-8bd35aa1cd82.png)
