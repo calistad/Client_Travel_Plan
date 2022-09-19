@@ -1,7 +1,7 @@
 # Client Travel Plan
 
 ## Overview
-Create a travel plan for the customers in 4 aspects.
+Create a travel plan for the clients in 4 aspects.
 
 * Present 600+ **cities**, nearby **airports**, **hotels**, and **restaurants** with clients’ preferable temperatures.
     
