@@ -89,7 +89,7 @@ Therefore, both the `voting classifier` and `ada boost classifier` are recommend
 
 ## 3. Reserve the Suitable Airbnb
 
-**Assume the client choose Los Angeles, we will look at Airbnb located in Los Angeles.**
+Assume the client choose Los Angeles, we will look at Airbnb located in Los Angeles.
 
 ### Approach
 
@@ -108,7 +108,7 @@ Available hotels after clientss' requirements.
 
 ## 4. Estimate the Potential Housing Price
 
-**Assume the client choose Los Angeles, we will predict Airbnb pricing located in Los Angeles.**
+Assume the client choose Los Angeles, we will predict Airbnb pricing located in Los Angeles.
 
 ### Approach
 
@@ -127,6 +127,10 @@ The most significant features are `Cleaning_fee` and `bedrooms`.
 
 ![Screen Shot 2022-09-18 at 7 16 41 PM](https://user-images.githubusercontent.com/88747464/190932379-eadb10c6-65bc-4c4a-a3b7-fd1b36580bdc.png)
 
+Linear regression would be recommended for its most accurate performance. 
+
+Ridge Regression with Grid Search Cross-validation achieved the second best performance.
+
 | Linear Regression | Ridge Regression |
 | --- | --- | 
 | Accuracy: 61% | Accuracy: 59% |
@@ -134,13 +138,19 @@ The most significant features are `Cleaning_fee` and `bedrooms`.
 | ![Screen Shot 2022-09-18 at 8 59 46 PM](https://user-images.githubusercontent.com/88747464/190935820-572325d3-74ef-4af9-8faa-3d612d8349f7.png) | ![Screen Shot 2022-09-18 at 8 59 57 PM](https://user-images.githubusercontent.com/88747464/190935830-bec27d74-1baf-4334-9dbf-52c4fb95a6ca.png) |
 
 
+## Resources
 
+Airlines Dataset to predict a delay. (2022, June 21). Kaggle. https://www.kaggle.com/datasets/jimschacko/airlines-dataset-to-predict-a-delayMicrosoft. (2022).
 
+C. (2020, April 13). Voting Regressor with Pipelines. Kaggle. https://www.kaggle.com/code/cerberus4229/voting-regressor-with-pipelines/notebook
 
+C. (2021, September 21). Feature importance using the LASSO. Kaggle. https://www.kaggle.com/code/carlmcbrideellis/feature-importance-using-the-lasso
 
+Get the Data. (n.d.). Retrieved September 18, 2022, from http://insideairbnb.com/get-the-data/
 
+Kumar, A. (2022, April 24). Lasso Regression Explained with Python Example. Data Analytics. https://vitalflux.com/lasso-ridge-regression-explained-with-python-example/
 
-
+Ray, S. (2020, June 26). 8 Proven Ways for improving the “Accuracy” of a Machine Learning Model. Analytics Vidhya. https://www.analyticsvidhya.com/blog/2015/12/improvemachine-learning-results/
 
 
 
