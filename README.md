@@ -131,7 +131,9 @@ The most significant features are `Cleaning_fee` and `bedrooms`.
 | --- | --- | 
 | Accuracy: 61% | Accuracy: 59% |
 | Residual Standard Error: 147.39 | Residual Standard Error: 171.09 |
-| ![Screen Shot 2022-09-18 at 7 28 41 PM](https://user-images.githubusercontent.com/88747464/190935363-d5537ee6-cce4-4541-ac3d-1c84c5ee112b.png) | 
+| ![Screen Shot 2022-09-18 at 8 59 46 PM](https://user-images.githubusercontent.com/88747464/190935820-572325d3-74ef-4af9-8faa-3d612d8349f7.png) | ![Screen Shot 2022-09-18 at 8 59 57 PM](https://user-images.githubusercontent.com/88747464/190935830-bec27d74-1baf-4334-9dbf-52c4fb95a6ca.png) |
+
+
 
 
 
