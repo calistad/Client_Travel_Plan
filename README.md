@@ -1,7 +1,8 @@
 # Client Travel Plan
 
 ## Overview
-Create a travel plan for the clients in 4 aspects.
+
+Create an efficient travel plan for the clients in 4 aspects.
 
 * Present 600+ **cities**, nearby **airports**, **hotels**, and **restaurants** with clients’ preferable temperatures.
     
@@ -15,7 +16,7 @@ Create a travel plan for the clients in 4 aspects.
 
 ### Approach
 
-Retrieve weather of 1000+ cities in the US using Weather API.
+Retrieve the weather of 1000+ cities in the US using Weather API.
 
 ![Screen Shot 2022-09-18 at 6 19 13 PM](https://user-images.githubusercontent.com/88747464/190930360-732ab56c-ad16-4d50-87ee-137f3da49ccd.png)
 
@@ -61,7 +62,7 @@ WN airline has the most count of flights and the most amount of delays. YV airli
 ![Screen Shot 2022-07-14 at 8 51 22 PM](https://user-images.githubusercontent.com/88747464/179125026-1c1ecbc0-af50-4c80-8e22-263e968b4e9a.png)
 ![Screen Shot 2022-07-14 at 8 51 29 PM](https://user-images.githubusercontent.com/88747464/179125031-9802d7b2-a0de-406b-a75c-da082de0934f.png)
 
-Prepared dataset after categorical encoding.
+Prepared dataset after categorical data encoding.
 
 ![Screen Shot 2022-07-14 at 8 54 27 PM](https://user-images.githubusercontent.com/88747464/179125294-428f7938-1110-47cc-ab0b-b0e3d252869f.png)
 
@@ -91,7 +92,7 @@ Therefore, both the `voting classifier` and `ada boost classifier` are recommend
 
 ## 3. Reserve the Suitable Airbnb
 
-Assume the client choose Los Angeles, we will look at Airbnb located in Los Angeles.
+Assuming the client chooses Los Angeles, we will look at Airbnb located in Los Angeles.
 
 ### Approach
 
@@ -103,14 +104,14 @@ Assume the client choose Los Angeles, we will look at Airbnb located in Los Ange
 
 ![Screen Shot 2022-09-18 at 6 59 12 PM](https://user-images.githubusercontent.com/88747464/190931927-55b6ed4e-a684-4490-bfa4-c9bedfdf6b5e.png)
 
-Available hotels after clientss' requirements.
+Available hotels after clients' requirements.
 
 ![Screen Shot 2022-09-18 at 6 59 46 PM](https://user-images.githubusercontent.com/88747464/190931930-b8894de2-495e-4de4-967a-418d2060496a.png)
 
 
 ## 4. Estimate the Potential Housing Price
 
-Assume the client choose Los Angeles, we will predict Airbnb pricing located in Los Angeles.
+Assuming the client chooses Los Angeles, we will predict Airbnb pricing located in Los Angeles.
 
 ### Approach
 
