@@ -36,6 +36,8 @@ Clients choose preferable weather.
 
 ## 2. Choose the Right Flight
 
+[Click here for a detailed version.](https://github.com/calistad/Client_travel_plan/blob/main/Airline_Analysis.md)
+
 ### Approach
 
 A dataset with 9 columns and 539,383 rows.
