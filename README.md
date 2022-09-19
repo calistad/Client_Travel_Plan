@@ -1,4 +1,4 @@
-# Customer Travel Plan
+# Client Travel Plan
 
 ## Overview
 Create a travel plan for the customers in 4 aspects.
@@ -27,7 +27,9 @@ Clients choose preferable weather.
 
 ![Screen Shot 2022-09-18 at 6 30 04 PM](https://user-images.githubusercontent.com/88747464/190930611-68f370a8-2429-45c6-8ea6-d73652de1262.png)
 
-### Findings - Interactive Map
+### Findings
+
+* Interactive Map
 
 ![Screen Shot 2022-09-17 at 11 37 23 PM](https://user-images.githubusercontent.com/88747464/190930473-36f85af5-8183-42b4-8f70-ed28dd56dd78.png)
 
@@ -124,6 +126,12 @@ Retrieved **Feature importance**.
 The most significant features are `Cleaning_fee` and `bedrooms`.
 
 ![Screen Shot 2022-09-18 at 7 16 41 PM](https://user-images.githubusercontent.com/88747464/190932379-eadb10c6-65bc-4c4a-a3b7-fd1b36580bdc.png)
+
+| Linear Regression | Ridge Regression |
+| --- | --- | 
+| Accuracy: 61% | Accuracy: 59% |
+| Residual Standard Error: 147.39 | Residual Standard Error: 171.09 |
+| ![Screen Shot 2022-09-18 at 7 28 41 PM](https://user-images.githubusercontent.com/88747464/190935363-d5537ee6-cce4-4541-ac3d-1c84c5ee112b.png) | 
 
 
 
