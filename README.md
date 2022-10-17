@@ -52,7 +52,7 @@ A dataset with 9 columns and 539,383 rows.
 ![Screen Shot 2022-07-14 at 8 41 23 PM](https://user-images.githubusercontent.com/88747464/179124183-a0f0fad1-06b7-4f4b-ae2e-c1b24d87097b.png)
 ![Screen Shot 2022-07-14 at 8 41 30 PM](https://user-images.githubusercontent.com/88747464/179124192-aec473ce-2298-44eb-827e-683953aa0b83.png)
 
-Flights with shorter times are more tend to be on time.
+Flights with shorter times tend to be on time.
 
 ![Screen Shot 2022-07-14 at 8 45 53 PM](https://user-images.githubusercontent.com/88747464/179124641-bc37d799-2f6e-48da-bf3a-7490594e5264.png)
 ![Screen Shot 2022-07-14 at 8 46 07 PM](https://user-images.githubusercontent.com/88747464/179124657-3df4c126-9a88-4d6b-ada1-e0d6315a7961.png)
